@@ -340,7 +340,7 @@ GameObject:
   - component: {fileID: 310936127}
   - component: {fileID: 310936128}
   m_Layer: 0
-  m_Name: Player One
+  m_Name: PlayerOne
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -926,7 +926,7 @@ GameObject:
   - component: {fileID: 864952285}
   - component: {fileID: 864952287}
   m_Layer: 0
-  m_Name: Player Two
+  m_Name: PlayerTwo
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2820,6 +2820,7 @@ GameObject:
   - component: {fileID: 543450651916009121}
   - component: {fileID: 1573602614}
   - component: {fileID: 919132147725902877}
+  - component: {fileID: 919132147725902876}
   m_Layer: 0
   m_Name: Character
   m_TagString: Player
@@ -2827,6 +2828,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &919132147725902876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132147725902875}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cffeb18719d640845a5b4b84f85c61ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Target: {fileID: 919132149454794131}
 --- !u!114 &919132147725902877
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2850,6 +2864,7 @@ GameObject:
   - component: {fileID: 919132149454794131}
   - component: {fileID: 300536034}
   - component: {fileID: 919132149454794128}
+  - component: {fileID: 919132149454794127}
   m_Layer: 0
   m_Name: Character
   m_TagString: Player
@@ -2857,6 +2872,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &919132149454794127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132149454794126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cffeb18719d640845a5b4b84f85c61ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Target: {fileID: 543450651916009121}
 --- !u!114 &919132149454794128
 MonoBehaviour:
   m_ObjectHideFlags: 0
